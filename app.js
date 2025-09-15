@@ -1123,4 +1123,5 @@ async function sendFollowup(token, payload) {
 app.listen(PORT, () => {
   console.log('Listening on port', PORT);
   console.log('This is a test message')
+  console.log('This is another test message')
 });
