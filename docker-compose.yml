@@ -1,6 +1,6 @@
 services:
   app:
-    build: .
+    image: ghcr.io/infecta/tazuna:latest
     container_name: tazuna-bot
     environment:
       - APP_ID=${APP_ID}
