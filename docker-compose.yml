@@ -1,7 +1,6 @@
 services:
   app:
     build: .
-    image: tazuna:latest
     container_name: tazuna-bot
     environment:
       - APP_ID=${APP_ID}
